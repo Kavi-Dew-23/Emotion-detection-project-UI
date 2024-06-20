@@ -38,7 +38,7 @@ const Login = (props) => {
             </div>
             <button
               className="px-5 py-2 bg-[#2A2B27] text-white rounded-full text-xl"
-              onClick={() => navigate(props.Register ? "/register" : "/login")}
+              onClick={() => navigate(props.Login ? "/login" : "/videoCapture")}
             >
               Sign In
             </button>
