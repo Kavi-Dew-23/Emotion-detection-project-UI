@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../../Features/background.css";
 import { useNavigate } from "react-router-dom";
 import Button from "../../Components/Button/button";
-import ParticlesBackground from "../../Components/background/particles";
+import ParticlesBackground from "../../Components/background/ParticlesBackground";
 //import {toast} from "react-toastify"
 
 const Register = (props) => {

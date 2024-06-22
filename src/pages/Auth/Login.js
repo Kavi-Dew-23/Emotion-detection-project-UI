@@ -1,5 +1,5 @@
 import React from "react";
-import Particlesbackground from "../../Components/background/particles";
+import Particlesbackground from "../../Components/background/ParticlesBackground";
 import Button from "../../Components/Button/button";
 import "../../Features/background.css";
 import { useNavigate } from "react-router-dom";
@@ -13,7 +13,7 @@ const Login = (props) => {
       <div className="absolute top-0 right-0 p-10 z-10">
         <Button
           text="Register"
-          onClick={() => navigate(props.Login ? "/" : "/register")}
+          onClick={() => navigate(props.Login ? "/" : "/")}
         />
       </div>
       <div className="container flex items-center justify-center z-10">
